@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/maxleiko/nodered-msg-converter/issues"
   },
-  "homepage": "https://github.com/maxleiko/nodered-msg-converter#readme"
+  "homepage": "https://github.com/maxleiko/nodered-msg-converter#readme",
+  "devDependencies": {
+    "mocha": "^2.3.2"
+  }
 }
