@@ -7,7 +7,11 @@ module.exports = function (input) {
   try {
     var json = JSON.parse(input);
     if (typeof json.payload === 'undefined') {
-      ret = { payload: json };
+      var content = json;
+      if (typeof json === 'object') {
+        content = JSON.stringify(json);
+      }
+      ret = { payload: content };
     } else {
       ret = json;
     }

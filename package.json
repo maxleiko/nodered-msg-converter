@@ -1,6 +1,6 @@
 {
   "name": "nodered-msg-converter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Converts any string input to a \"valid\" nodered JSON message",
   "main": "index.js",
   "scripts": {
