@@ -1,5 +1,9 @@
 ## nodered-msg-converter [![Build Status](https://travis-ci.org/maxleiko/nodered-msg-converter.svg)](https://travis-ci.org/maxleiko/nodered-msg-converter) [![npm version](https://img.shields.io/npm/v/nodered-msg-converter.svg)](https://img.shields.io/npm/v/nodered-msg-converter.svg)
 
+```sh
+npm i nodered-msg-converter --save
+```
+
 Utility module to convert almost any input to a "clean" **Node-RED** message.
 ```js
 var noderedMsgConverter = require('nodered-msg-converter');
